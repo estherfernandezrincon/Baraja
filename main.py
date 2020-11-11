@@ -1,12 +1,14 @@
-import Baraja
+import barajaC
 
-ordenada=Baraja.creaBaraja()
-print('Esta es la primera baraja :  ',ordenada)
+palos= ['o','c','e','b']
+numeros= ['A','2','3','4','5','6','7','S','C','R']
 
-desordenada= Baraja.creaBaraja()
-print('esta es la segunda baraja nada mas crearla:', otraBaraja)
-Baraja.barajar(otraBaraja)
-print('y ahora la he barajado: ', otraBaraja)
+miBaraja= barajaC.MiBaraja(palos,numeros)
+
+print(miBaraja.mazacote)
+
+
+
 
 
 
